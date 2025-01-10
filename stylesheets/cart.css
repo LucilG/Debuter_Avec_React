@@ -1,0 +1,10 @@
+#panier {
+  font-family: 'Roboto';
+  color: green;
+  text-align: left;
+}
+
+#panier h2 {
+  font-weight: bold;
+  margin-left: 10px;
+}
