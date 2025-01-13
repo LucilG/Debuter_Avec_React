@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 10px;
+  gap: 10px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  object-fit: fill;
+}
+
+h1 {
+  font-weight: bold;
+  color: green;
+}
