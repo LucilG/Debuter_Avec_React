@@ -10,7 +10,7 @@ function PlantItem({plantDesc}) {
   return (
     <ul className="lmj-plant-item" onClick={() => handleClick(plantDesc.name)}>
       <img src={imgPlant} alt="plant" className="lmj-plant-item-cover" />
-      <li key={plantDesc.name}>
+      <li key={plantDesc.name} className="lmj-plant-item-content">
         {plantDesc.name}
         {plantDesc.isSpecialOffer && <p className="lmj-sales">En soldes !</p>}
         <CareScale careType='water' scaleValue={plantDesc.water} />
