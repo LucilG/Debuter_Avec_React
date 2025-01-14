@@ -1,0 +1,15 @@
+.category-banner {
+  margin-top: 20px;
+  align-items: center;
+}
+
+.categoriesPlants {
+  background-color: whitesmoke;
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.init-cat-btn {
+  background-color: whitesmoke;
+  font-size: 22px;
+}

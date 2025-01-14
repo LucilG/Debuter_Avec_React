@@ -13,6 +13,7 @@
 	flex-direction: column;
 	text-transform: capitalize;
   list-style-type: none;
+  padding: 0;
 }
 
 .lmj-sales {
@@ -23,4 +24,8 @@
 	color: white;
 	padding: 5px 10px;
 	background-color: #31b572;
+}
+
+.lmj-plant-item-content {
+  padding: 5px;
 }
